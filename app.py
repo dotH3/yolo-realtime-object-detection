@@ -1,6 +1,6 @@
 from ultralytics import YOLO
 
-model = YOLO("yolol1n.pt")  # Model
+model = YOLO("yolo11n.pt")  # Model
 video = 0  # Camera
 
 results = model.track(
